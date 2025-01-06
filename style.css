@@ -1,6 +1,31 @@
-h1 {
-    color: red;
+#name {
+    color: black;
+    width: 25%;
+    font-size: 100px;
+    font-family: "Playwrite AU SA", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    display: inline-block;
+}
+#profilePicture {
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+#rightSide {
+    display: inline-block;
+}
+#aboutMe {
+    /* display: inline-block; */
+    color: black;
 
+}
+#aboutMeTitle {
+    color: black;
 }
 /* need to think about design of the whole website before coding */
 
