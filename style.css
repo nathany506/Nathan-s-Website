@@ -1,3 +1,19 @@
+/*
+Bit of inspiration here
+https://addisoncraik.com/
+https://www.zachjordan.io/#top
+https://robbowen.digital/
+https://www.reddit.com/r/webdev/comments/112r7m5/whats_the_best_portfolio_website_youve_ever_seen/
+
+*/
+#topBar {
+    display: inline-block;
+    position: absolute;
+}
+.top {
+    display: inline-block;
+}
+
 #name {
     color: black;
     width: 25%;
@@ -9,6 +25,7 @@
     text-align: center;
     display: inline-block;
 }
+/* How to get everything to line up verticall properly?*/
 #profilePicture {
     display: inline-block;
     width: 500px;
@@ -17,7 +34,9 @@
     margin-top: 10%;
 }
 #rightSide {
+    margin: 5%;
     display: inline-block;
+    width: 20%;
 }
 #aboutMe {
     /* display: inline-block; */
@@ -27,13 +46,8 @@
 #aboutMeTitle {
     color: black;
 }
-/* need to think about design of the whole website before coding */
+#copyright {
+    text-align: center;
 
-/*
-Bit of inspiration here
-https://addisoncraik.com/
-https://www.zachjordan.io/#top
-https://robbowen.digital/
-https://www.reddit.com/r/webdev/comments/112r7m5/whats_the_best_portfolio_website_youve_ever_seen/
+}
 
-*/
